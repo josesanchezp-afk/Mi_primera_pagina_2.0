@@ -1,14 +1,15 @@
 🌟 Bienvenidos a mi página
+🚀 El viaje de un desarrollador: de cero al primer proyecto funcional
 
-En este espacio comparto algunos proyectos que he realizado durante el curso de Algoritmos. Aquí encontrarás ejemplos prácticos, explicaciones detalladas y mucho más.
 
-El viaje de un desarrollador:de cero al primer proyecto funcional.
+En este espacio comparto algunos proyectos que he realizado durante el curso de Algoritmos. Aquí encontrarás ejemplos prácticos, explicaciones detalladas y mucho más
+🧠 Curso de Pensamiento Algorítmico
 
-Curso pesamiento algoritmico
-🎓 Institución Universitaria
+Este proyecto recopila mi trabajo y aprendizaje desarrollado en el curso de Pensamiento Algorítmico, donde he estudiado conceptos fundamentales como la creación de algoritmos, el uso de variables, funciones, estructuras de control y el diseño de soluciones paso a paso.
 
-Este proyecto hace parte de mi proceso de formación en la
-Institución Universitaria Digital de Antioquia – IUDigital.
+
+
+
 
 ![Imagen de WhatsApp 2025-11-21 a las 23 19 06_5b815abe](https://github.com/user-attachments/assets/48315108-2437-419e-b1fb-ccb39743fd63)
 
