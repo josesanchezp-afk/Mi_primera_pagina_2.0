@@ -1,3 +1,7 @@
+🌟 Bienvenidos a mi página
+
+En este espacio comparto algunos proyectos que he realizado durante el curso de Algoritmos. Aquí encontrarás ejemplos prácticos, explicaciones detalladas y mucho más.
+
 El viaje de un desarrollador:de cero al primer proyecto funcional.
 
 Curso pesamiento algoritmico
