@@ -1,0 +1,63 @@
+paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+print("La tortuga avanzará " + str(paso) + " pasos")
+print("-" * paso + ">")
+1️⃣ paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+
+📌 Esta línea hace tres cosas:
+
+input("Ingrese cantidad de pasos de la tortuga: ")
+
+Muestra el texto al usuario.
+
+Espera que el usuario escriba un número en el teclado.
+
+Convierte lo que el usuario escribió a número entero con int()
+
+Si el usuario escribe 30, queda como 30 (entero), no como texto.
+
+Guarda ese número en la variable paso
+
+Ahora paso = 30 (por ejemplo).
+
+2️⃣ print("La tortuga avanzará " + str(paso) + " pasos")
+
+📌 Esta línea muestra un mensaje en pantalla:
+
+"La tortuga avanzará " es un texto.
+
+str(paso) convierte el número a texto para poder unirlo.
+
+" pasos" es otro texto.
+
+🔍 Ejemplo:
+Si paso = 30
+Imprime:
+
+La tortuga avanzará 30 pasos
+
+3️⃣ print("-" * paso + ">")
+
+📌 Esta línea crea una representación visual del avance de la tortuga:
+
+"-" * paso
+Multiplica el símbolo - tantas veces como el número ingresado.
+
+Si paso = 5
+produce: "-----"
+
++ ">"
+Agrega una flecha al final, simulando la tortuga.
+
+print(...)
+Lo muestra en pantalla.
+
+🔍 Ejemplo:
+Si paso = 10
+Imprime:
+
+----------> 
+
+⭐ Resultado completo si el usuario escribe 30
+Ingrese cantidad de pasos de la tortuga: 30
+La tortuga avanzará 30 pasos
+-------------------------------> 
