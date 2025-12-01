@@ -1,4 +1,6 @@
-Moviendo Hacia delantes
+<h1>En este apartado vamos a ver como fuciona un os movientos de uan otruta con prin y inou y fuciónes</h1>
+<h1>Moviendo Hacia delante</h1>
+
 
 paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
 
@@ -273,4 +275,94 @@ La función derecha dibuja una línea con guiones y termina con > para mostrar q
 La función abajo dibuja una línea vertical con | y termina con V para mostrar que la tortuga bajó.
 
 Cuando ejecutamos el código, primero vemos la tortuga moverse hacia la derecha y luego hacia abajo, formando una especie de “L” en la pantalla.
+
+<h1>Convinacion de los dos movimientos hacia delante y abajo con fuciones ,formado escalones continuos </h1>
+derechar = 5
+
+izquierda = 5
+escalones = 0
+Se definen tres cosas:
+
+derechar → cuántos pasos da la tortuga hacia la derecha.
+
+izquierda → cuántos pasos baja la tortuga.
+
+escalones → cuántas veces hemos hecho un “movimiento diagonal”, sirve para alinear la tortuga en escalones.
+
+
+def derecha(n):
+
+    global escalones
+    
+    espaciosIzquierda = " " * derechar * escalones
+    
+    print(espaciosIzquierda + "-" * n + ">")
+    
+Esta función mueve la tortuga hacia la derecha.
+
+
+espaciosIzquierda agrega espacios para que cada nueva línea esté un poco más a la derecha que la anterior (simulando escalones).
+
+Imprime guiones - seguidos de > para mostrar la tortuga avanzando.
+
+
+def abajo(n):
+
+    global escalones
+    
+    espaciosIzquierda = " " * derechar * escalones
+    
+    print((espaciosIzquierda + (" " * derechar + "|\n")) * n + (espaciosIzquierda + " " * derechar + "V"))
+    
+    escalones = escalones + 1
+    
+<h1>Esta función mueve la tortuga hacia abajo </h1>
+
+
+Dibuja varias líneas verticales |, alineadas con los espacios, y termina con V para indicar que la tortuga mira hacia abajo.
+
+Después de mover hacia abajo, aumenta escalones para que la próxima diagonal esté un paso más a la derecha.
+
+
+derecha(derechar)
+abajo(izquierda)
+
+derecha(derechar)
+abajo(izquierda)
+
+derecha(derechar)
+abajo(izquierda)
+
+derecha(derechar)
+abajo(izquierda)
+derecha(derechar)
+abajo(izquierda)
+Aquí se repite el movimiento varias veces.
+
+Cada bloque hace que la tortuga avance un tramo a la derecha y luego baje, formando un patrón de escalera en la consola.
+
+Al final, la tortuga avanza en diagonal, creando un efecto de “escalones”:
+
+
+----->  
+     |
+     |
+     |
+     |
+     |
+     V
+     ----->
+          |
+          |
+          |
+          |
+          |
+          V
+          ----->
+               |
+               |
+               |
+               |
+               |
+               V
 
