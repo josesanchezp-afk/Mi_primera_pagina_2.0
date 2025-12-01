@@ -246,7 +246,31 @@ input() pide datos al usuario.
 int() convierte esos datos en números.
 
 
+
 print() muestra texto en pantalla.
 
 "*" replica caracteres múltiples veces para dibujar el recorrido.
+
+<h1>Convinacion de los dos movimientos hacia delante y abajo con fuciones </h1>
+
+Derecha = 5
+izquierda = 5
+
+def derecha(n):
+    print("-" * n + ">")
+
+def abajo(n):
+    print((" " * Derecha + "|\n") * n + (" " * Derecha + "V"))
+
+derecha(Derecha)
+abajo(izquierda)
+Explicación para cualquier usuario:
+
+Primero, decimos cuántos pasos va a avanzar la tortuga hacia la derecha (Derecha) y hacia abajo (izquierda).
+
+La función derecha dibuja una línea con guiones y termina con > para mostrar que la tortuga avanzó horizontalmente.
+
+La función abajo dibuja una línea vertical con | y termina con V para mostrar que la tortuga bajó.
+
+Cuando ejecutamos el código, primero vemos la tortuga moverse hacia la derecha y luego hacia abajo, formando una especie de “L” en la pantalla.
 
