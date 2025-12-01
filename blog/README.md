@@ -2,8 +2,17 @@ Moviendo Hacia delantes
 
 
 paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+
+
+
 print("La tortuga avanzará " + str(paso) + " pasos")
+
+
+
 print("-" * paso + ">")
+
+
+
 1️⃣ paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
 
 📌 Esta línea hace tres cosas:
