@@ -1,7 +1,11 @@
 Moviendo Hacia delantes 
+
 paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+
 print("La tortuga avanzará " + str(paso) + " pasos")
+
 print("-" * paso + ">")
+
 1️⃣ paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
 
 📌 Esta línea hace tres cosas:
@@ -81,7 +85,7 @@ v
 
 Cada | representa el rastro que deja la tortuga al moverse.
 
-Cada \n hace un salto de línea, así que los | “bajan”.
+Cada \n hace un salto de línea, así que los | “bajan”. 
 
 La v al final es la tortuga mirando hacia abajo.
 
@@ -108,11 +112,17 @@ v
 
 Entre más pasos pidas, más baja avanzara.
 <h1>Union de los dos movientos</h1>
+
 paso = int(input("Ingrese cantidad de pasos de la tortuga "))
+
 print("La tortuga avanzará  " + str(paso) + "pasos")
+
 giro = int(input("Ingrese cantidad de pasos hacia abajo  "))
+
 print("La tortuga avanzará  " + str(giro) + "pasos")
+
 print("|\n"* paso + "-"* giro + ">")
+
 1️⃣ Línea 1
 python
 Copiar código
@@ -129,13 +139,14 @@ Ejemplo: si escribes 3, entonces paso = 3.
 python
 Copiar código
 print("La tortuga avanzará  " + str(paso) + "pasos")
+
 str(paso) convierte el número de pasos a texto para poder concatenarlo con otros textos.
 
 print() muestra en pantalla un mensaje.
 
 Salida si paso = 3:
 
-nginx
+
 Copiar código
 La tortuga avanzará  3pasos
 3️⃣ Línea 3
@@ -154,13 +165,14 @@ Igual que la línea 2, muestra en pantalla la cantidad de pasos hacia abajo que 
 
 Ejemplo si giro = 4:
 
-nginx
+
 Copiar código
 La tortuga avanzará  4pasos
 5️⃣ Línea 5
 python
 Copiar código
 print("|\n"* paso + "-"* giro + ">")
+
 Esta línea hace el dibujo del movimiento de la tortuga solo con caracteres:
 
 "|\n"* paso
