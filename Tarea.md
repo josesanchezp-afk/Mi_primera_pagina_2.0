@@ -67,7 +67,9 @@ Imprime:
 ----------> 
 <h1>Movimiento hacia abajo</h1>
 
-```python paso=int(input("Ingrese cantidad de pasos de la tortuga "))
+```python
+
+paso=int(input("Ingrese cantidad de pasos de la tortuga "))
 
 print("La tortuga avanzará  "   + str(paso) + "pasos")
 
@@ -138,6 +140,9 @@ Entre más pasos pidas, más baja avanzara.
 
 <h1>Union de los dos movientos</h1>
 
+
+```python
+
 paso = int(input("Ingrese cantidad de pasos de la tortuga "))
 
 print("La tortuga avanzará  " + str(paso) + "pasos")
@@ -147,6 +152,8 @@ giro = int(input("Ingrese cantidad de pasos hacia abajo  "))
 print("La tortuga avanzará  " + str(giro) + "pasos")
 
 print("|\n"* paso + "-"* giro + ">")
+
+```
 
 1️⃣ Línea 1
 
@@ -258,7 +265,9 @@ print() muestra texto en pantalla.
 
 "*" replica caracteres múltiples veces para dibujar el recorrido.
 
-<h1>Convinacion de los dos movimientos hacia delante y abajo con fuciones </h1>
+<h1>Convinacion de los dos movimientos hacia delante y abajo con fuciones </h1> 
+
+```python
 
 Derecha = 5
 izquierda = 5
@@ -271,7 +280,9 @@ def abajo(n):
 
 derecha(Derecha)
 abajo(izquierda)
-Explicación para cualquier usuario:
+
+```
+Explicación 
 
 Primero, decimos cuántos pasos va a avanzar la tortuga hacia la derecha (Derecha) y hacia abajo (izquierda).
 
@@ -282,6 +293,9 @@ La función abajo dibuja una línea vertical con | y termina con V para mostrar 
 Cuando ejecutamos el código, primero vemos la tortuga moverse hacia la derecha y luego hacia abajo, formando una especie de “L” en la pantalla.
 
 <h1>Convinacion de los dos movimientos hacia delante y abajo con fuciones ,formado escalones continuos </h1>
+
+```python
+
 derechar = 5
 
 izquierda = 5
@@ -302,15 +316,16 @@ def derecha(n):
     espaciosIzquierda = " " * derechar * escalones
     
     print(espaciosIzquierda + "-" * n + ">")
+```
     
-Esta función mueve la tortuga hacia la derecha.
+Esta función mueve la tortuga hacia la derecha e izquierda
 
 
 espaciosIzquierda agrega espacios para que cada nueva línea esté un poco más a la derecha que la anterior (simulando escalones).
 
 Imprime guiones - seguidos de > para mostrar la tortuga avanzando.
 
-
+```python
 def abajo(n):
 
     global escalones
@@ -320,6 +335,8 @@ def abajo(n):
     print((espaciosIzquierda + (" " * derechar + "|\n")) * n + (espaciosIzquierda + " " * derechar + "V"))
     
     escalones = escalones + 1
+
+```
     
 <h1>Esta función mueve la tortuga hacia abajo </h1>
 
@@ -328,7 +345,7 @@ Dibuja varias líneas verticales |, alineadas con los espacios, y termina con V 
 
 Después de mover hacia abajo, aumenta escalones para que la próxima diagonal esté un paso más a la derecha.
 
-
+```python
 derecha(derechar)
 abajo(izquierda)
 
@@ -342,6 +359,7 @@ derecha(derechar)
 abajo(izquierda)
 derecha(derechar)
 abajo(izquierda)
+```
 Aquí se repite el movimiento varias veces.
 
 Cada bloque hace que la tortuga avance un tramo a la derecha y luego baje, formando un patrón de escalera en la consola.
