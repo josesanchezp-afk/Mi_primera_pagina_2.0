@@ -2,11 +2,11 @@
 <h1>Moviendo Hacia delante</h1>
 
 
-paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+```python paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
 
 print("La tortuga avanzará " + str(paso) + " pasos")
 
-print("-" * paso + ">")
+print("-" * paso + ">")``` 
 
 1️⃣ paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
 
