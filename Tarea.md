@@ -65,9 +65,9 @@ Imprime:
 
 ----------> 
 <h1>Movimiento hacia abajo</h1>
-```python paso=int(input("Ingrese cantidad de pasos de la tortuga ")) <br><br>
-print("La tortuga avanzará  "   + str(paso) + "pasos")<br><br>
-print("|\n"*paso +"v") <br><br>
+```python paso=int(input("Ingrese cantidad de pasos de la tortuga ")) 
+print("La tortuga avanzará  "   + str(paso) + "pasos")
+print("|\n"*paso +"v") 
 ```
 ⭐ Resultado completo si el usuario escribe 30
 Ingrese cantidad de pasos de la tortuga: 30
