@@ -69,8 +69,6 @@ Imprime:
 print("La tortuga avanzará  "   + str(paso) + "pasos")<br><br>
 print("|\n"*paso +"v") <br><br>
 ```
-
-
 ⭐ Resultado completo si el usuario escribe 30
 Ingrese cantidad de pasos de la tortuga: 30
 La tortuga avanzará 30 pasos
