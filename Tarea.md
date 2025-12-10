@@ -1,20 +1,18 @@
-<h1>En este apartado vamos a ver como fuciona un os movientos de uan otruta con prin y inou y fuciónes</h1>
+<h1>En este apartado vamos a ver como fuciona un los movientos de una tortuga print y input y fuciónes</h1>
 <h1>Moviendo Hacia delante</h1>
 
 
-```python paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+```python= int(input("Ingrese cantidad de pasos de la tortuga: "))
 
 print("La tortuga avanzará " + str(paso) + " pasos")
 
-print("-" * paso + ">")``` 
-
-1️⃣ paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
-
-
+print("-" * paso + ">")
+paso = int(input("Ingrese cantidad de pasos de la tortuga: "))
+```
 📌 Esta línea hace tres cosas:
 
 
-input("Ingrese cantidad de pasos de la tortuga: ")
+input("Ingrese cantidad de pasos de la tortuga: ")```
 
 
 Muestra el texto al usuario.
