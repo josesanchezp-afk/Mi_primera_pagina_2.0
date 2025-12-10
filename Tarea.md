@@ -2,7 +2,7 @@
 <h1>Moviendo Hacia delante</h1>
 
 
-```python= int(input("Ingrese cantidad de pasos de la tortuga: "))
+```python int(input("Ingrese cantidad de pasos de la tortuga: "))
 
 print("La tortuga avanzará " + str(paso) + " pasos")
 
