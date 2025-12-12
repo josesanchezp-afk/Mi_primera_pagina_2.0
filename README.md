@@ -80,5 +80,8 @@ print("La suma es:", suma)
 🔸 Ejemplo 6: Función con input
 def presentar():
     nombre = input("Escribe tu nombre: ")
-    print("Mucho gusto,", nombre)
+    print("Mucho gusto,", nombre)<dr>
+
+## Actividad #3
+https://josesanchezp-afk.github.io/mini_turtle_taks/
 
