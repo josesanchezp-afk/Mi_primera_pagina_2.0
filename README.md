@@ -36,6 +36,7 @@ A continuación dejo ejemplos simples que muestran cómo usar variables, crear f
 
 🔸 Ejemplo 1: Uso de variables
 # Variables básicas
+```python
 nombre = "José"
 edad = 20
 curso = "Pensamiento Algorítmico"
@@ -43,11 +44,12 @@ curso = "Pensamiento Algorítmico"
 print("Hola,", nombre)
 print("Tienes", edad, "años")
 print("Estás en el curso de", curso)
+```
 
 🔸 Ejemplo 2: Crear una función
 
 Una función permite agrupar código para reutilizarlo.
-
+```python
 def saludar():
     print("Hola, bienvenido al curso de programación.")
 
@@ -56,19 +58,22 @@ def saludar():
 Para ejecutar una función, solo la nombramos:
 
 saludar()   # Aquí se llama la función
+```
 
 🔸 Ejemplo 4: Función con parámetros
 
 También podemos hacer funciones que reciban datos:
-
+```python
 def saludar_persona(nombre):
     print(f"Hola {nombre}, ¡bienvenido!")
 
 Llamando la función:
 saludar_persona("José")
 saludar_persona("María")
+```
 
 🔸 Ejemplo 5: Función que devuelve un valor
+```python
 def sumar(a, b):
     resultado = a + b
     return resultado
@@ -80,8 +85,11 @@ print("La suma es:", suma)
 🔸 Ejemplo 6: Función con input
 def presentar():
     nombre = input("Escribe tu nombre: ")
-    print("Mucho gusto,", nombre)<dr>
+    print("Mucho gusto,", nombre)
+```
 
 ## Actividad #3
-https://josesanchezp-afk.github.io/mini_turtle_taks/
+## mini-trurtle
+## mini_turtle https://github.com/josesanchezp-afk/mini_turtle_taks
+## mini_turtle_poo https://github.com/josesanchezp-afk/mini_turtle__oo_taks/tree/main
 
