@@ -87,9 +87,12 @@ def presentar():
     nombre = input("Escribe tu nombre: ")
     print("Mucho gusto,", nombre)
 ```
-
+## Actividad # 2
+## Tortuga avanza 
+https://github.com/josesanchezp-afk/Mi_primera_pagina_2.0/blob/main/Tarea.md
 ## Actividad #3
-## mini-trurtle
-## mini_turtle https://github.com/josesanchezp-afk/mini_turtle_taks
-## mini_turtle_poo https://github.com/josesanchezp-afk/mini_turtle__oo_taks/tree/main
+## Mini_turtle 
+https://github.com/josesanchezp-afk/mini_turtle_taks
+## Mini_turtle_POO
+poo https://github.com/josesanchezp-afk/mini_turtle__oo_taks/tree/main
 
