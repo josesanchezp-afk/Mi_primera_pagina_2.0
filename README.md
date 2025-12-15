@@ -90,9 +90,9 @@ def presentar():
 ## Actividad # 2
 ## Tortuga avanza 
 https://github.com/josesanchezp-afk/Mi_primera_pagina_2.0/blob/main/Tarea.md
-## Actividad #3
-## Mini_turtle 
-https://github.com/josesanchezp-afk/mini_turtle_taks
-## Mini_turtle_POO
-poo https://github.com/josesanchezp-afk/mini_turtle__oo_taks/tree/main
+## 📦 Proyectos del Curso
 
+### 🐢 Mini Turtle – Versión Funcional
+👉 https://josesanchezp-afk.github.io/mini_turtle_taks/
+### ⚙️ Mini Turtle – Versión Orientada a Objetos
+👉 https://josesanchezp-afk.github.io/mini_turtle__oo_taks/
