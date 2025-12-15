@@ -93,6 +93,7 @@ https://github.com/josesanchezp-afk/Mi_primera_pagina_2.0/blob/main/Tarea.md
 ## 📦 Proyectos del Curso
 
 ### 🐢 Mini Turtle – Versión Funcional
-👉 https://josesanchezp-afk.github.io/mini_turtle_taks/
+👉https://github.com/josesanchezp-afk/mini_turtle_taks
+
 ### ⚙️ Mini Turtle – Versión Orientada a Objetos
-👉 https://josesanchezp-afk.github.io/mini_turtle__oo_taks/
+👉 https://github.com/josesanchezp-afk/mini_turtle__oo_taks
